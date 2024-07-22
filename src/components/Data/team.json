@@ -1,54 +1,60 @@
 {
-    "team":
-    [
-        {
-            "title": "CEO and Founder",
-            "name": "John Smith",
-            "description": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-            "profile": "/team/c1.png",
-            "link": "/"
-        },
-        {
-            "title": "Director of Operations",
-            "name": "Jane Doe",
-            "description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-            "profile": "/team/c2.png",
-            "link": "/"
-        },
-        {
-            "title": "Senior SEO Specialist",
-            "name": "Michael Brown",
-            "description": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-            "profile": "/team/c3.png",
-            "link": "/"
-        }
-
-    ],
-    "process":
-    [
-        {
-            "label": "Consultation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Research",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Implementation",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Optimization",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Reporting",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        },
-        {
-            "label": "Improvement",
-            "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
-        }
-    ]
+  "team": [
+    {
+      "title": "Electronics",
+      "name": "David L",
+      "description": "My electronics store was up and running in less than a day. I made my first sale within 72 hours, and the automated order processing is a lifesaver!",
+      "profile": "/team/c1.png",
+      "link": "/"
+    },
+    {
+      "title": "Home Decor",
+      "name": "Sarah K",
+      "description": "Setting up my home decor shop was a breeze. I had beautiful products listed and my first customer by the end of the week. Highly recommend this service!",
+      "profile": "/team/c2.png",
+      "link": "/"
+    },
+    {
+      "title": "Fitness Equipment",
+      "name": "Michael T",
+      "description": "I didn’t have to worry about product selection or website design. My fitness store was live in 24 hours, and I saw sales almost immediately.",
+      "profile": "/team/c3.png",
+      "link": "/"
+    },
+    {
+      "title": "Beauty Products",
+      "name": "Priya  M",
+      "description": "My beauty store looks professional and has all the features I need. I made my first sale within 48 hours, and the support team has been fantastic.",
+      "profile": "/team/c3.png",
+      "link": "/"
+    },
+    {
+      "title": "Pet Supplies",
+      "name": "Ahmed  S",
+      "description": "The process was incredibly smooth. My pet supplies store was ready to go in no time, and I had my first sale within days. The shipping partnerships are great!",
+      "profile": "/team/c3.png",
+      "link": "/"
+    },
+    {
+      "title": "Kids’ Toys",
+      "name": "Emily J",
+      "description": "Launching my kids’ toys store was effortless. The design is beautiful, and I started receiving orders within the first week. Excellent service!",
+      "profile": "/team/c3.png",
+      "link": "/"
+    }
+  ],
+  "process": [
+    {
+      "label": "Website Setup",
+      "content": "We handle all aspects of your eCommerce website, ensuring it’s designed for sales and ready to launch."
+    },
+    {
+      "label": "Product Integration",
+      "content": "Our experts list 30 profitable products tailored to your chosen niche."
+    },
+    {
+      "label": "Order Fulfillment Automation",
+      "content": "Forget about manual tasks; our system automates order processing so you can focus on marketing and growing your business."
+    }
+  ]
 }

@@ -1,0 +1,33 @@
+---
+import Container from './Container.astro'
+import Topic from './Topic.astro'
+---
+
+<Container>
+  <div class="relative flex flex-col items-center md:flex-row">
+    <Topic
+      title="Hurry Now, Before It's too Late!"
+      description="There has never been a better time to get into E-commerce! Join the boat before it's too saturated"
+    />
+  </div>
+
+  <div class="md:px-20">
+    <div class="aspect-video rounded-3xl overflow-hidden">
+      <iframe
+        class="w-full h-full rounded-3xl"
+        src="https://www.youtube.com/embed/1TR_6oWuWD8"
+        title="I tried Google's IDX, Fullstack and Mobile Emulator in the Cloud"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+      >
+      </iframe>
+    </div>
+    <div class="my-8 flex justify-center">
+      <button
+        class="px-8 py-5 bg-zinc-900 hover:bg-white rounded-2xl text-center text-white hover:text-black border text-xl font-normal leading-7 animate-bounce"
+      >
+        Get an eCommerce Brand Done for you
+      </button>
+    </div>
+  </div>
+</Container>
