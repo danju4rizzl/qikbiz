@@ -3,11 +3,8 @@ import Container from './Container.astro'
 ---
 
 <Container>
-  <div
-    class="relative flex flex-col-reverse items-center md:flex-row"
-    id="hero"
-  >
-    <div class="row items-center py-5 md:w-6/12 md:pb-20 md:pt-10">
+  <div class="flex flex-col-reverse items-center md:flex-row" id="hero">
+    <div class="flex items-center py-5 w-full md:pb-20 md:pt-10">
       <div class="text-left space-y-3">
         <h1 class="text-5xl font-medium leading-none md:text-6xl">
           Get a fully optimized eCommerce site in 24 hours for just $20!
@@ -30,8 +27,11 @@ import Container from './Container.astro'
         </a>
       </div>
     </div>
-    <div class="flex items-center py-5 md:w-6/12 md:pb-20 md:pt-10">
-      <!-- <img src="/Hero.svg" width="100%" alt="Hero" /> -->
+
+    <div
+      class="flex items-center justify-center py-5 md:w-full md:pb-20 md:pt-24"
+    >
+      <img src="/Hero.svg" width="100%" alt="Hero" />
     </div>
   </div>
 
