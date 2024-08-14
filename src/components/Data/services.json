@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name1": "Basic SEO",
-    "name2": "Improve your website's visibility on search engines and drive more traffic.",
+    "name2": "Improve your website's visibility on Google, other search engines and drive more traffic.",
     "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "./",
@@ -39,9 +39,18 @@
     "id": 5,
     "name1": "SSL Certificate",
     "name2": "Keep your website secure and build trust with your customers.",
-    "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
+    "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "./",
     "image": "./services/05.svg"
+  },
+  {
+    "id": 6,
+    "name1": "Maintenance & Updates",
+    "name2": "It's plug-N-play with us. We'll keep your site up to date.",
+    "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
+    "arrow": "./services/ag.svg",
+    "link": "./",
+    "image": "./services/06.svg"
   }
 ]

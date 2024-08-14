@@ -2,6 +2,10 @@
 import Container from "./Container.astro"
 import Topic from "./Topic.astro";
 import servicesData from './Data/services.json';
+import mockupImage from '../images/mockup-1.png'
+import CtaButton from "./CtaButton.astro";
+import { Image } from "astro:assets";
+import { pricingList } from "../utils/config";
 ---
 <Container>
 <div class="relative flex flex-col items-center md:flex-row" id="services">
@@ -45,16 +49,18 @@ import servicesData from './Data/services.json';
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="justify-start items-center gap-[275px] flex">
             <div class="flex-col justify-start items-start gap-[26px] inline-flex text-black">
-                <div class="text-3xl font-medium">Save money on Web Design and Simplify Your Search for Products and Suppliers</div>
-                <div class="text-lg font-normal">Say goodbye to the hassle of finding an eCommerce web designer! Our team will efficiently set up your eCommerce website, ensuring it's ready for sales, so you can relax while we handle everything.
-                </div>
-                <a href="https://deejaydev.lemonsqueezy.com/buy/53b26d0e-316a-4a54-9b91-32e7ad42be71" class="px-[35px] py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-[14px] justify-start items-start gap-2.5 inline-flex">
-                    <div class="text-center text-xl font-normal leading-7"> Get Your LaunchPad Now!</div>
-                </a>
+                <div class="text-3xl font-medium">
+                    We Help Save Money for your Business with Tech Solutions.
+                 </div>
+                 <div class="text-lg font-normal">
+                    Say goodbye to the stress of finding great web developers, designers, and digital marketers! Our friendly team will set up your website just how you want it, so you can relax while we handle everything.
+                 </div>
+
+                 <CtaButton title={`Get ${pricingList.LunchPad.packageName} R${pricingList.LunchPad.price} PM`} checkoutUrl={pricingList.LunchPad.packageLink}/>                
             </div>
         </div>
-        <div class="hidden md:grid justify-items-center -m-20">
-            <img src="/services/mockup-1.svg" width="50%" alt="cat"/>
+        <div class="hidden md:grid justify-items-center -m-36">
+            <Image src={mockupImage} alt={`Best Web Development Solutions for South African Businesses form R${ pricingList.LunchPad.price } monthly `}/>
         </div>
     </div>
 </div>

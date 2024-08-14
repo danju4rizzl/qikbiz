@@ -1,4 +1,6 @@
 ---
+import { pricingList } from '../utils/config'
+import CtaButton from './CtaButton.astro'
 import Container from './Container.astro'
 ---
 
@@ -15,16 +17,10 @@ import Container from './Container.astro'
           month. Our experts will create a professional website tailored to your
           needs, giving you a strong online presence affordably.
         </p>
-        <a
-          class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
-          rel="noopener noreferrer"
-          href="https://deejaydev.lemonsqueezy.com/buy/53b26d0e-316a-4a54-9b91-32e7ad42be71"
-          target=""
-        >
-          <h2 class="text-center text-xl font-normal leading-7">
-            Get Started for R299 PM
-          </h2>
-        </a>
+        <CtaButton
+          title={`Get Started for R${pricingList.LunchPad.price} PM`}
+          checkoutUrl={pricingList.LunchPad.packageLink}
+        />
       </div>
     </div>
 
