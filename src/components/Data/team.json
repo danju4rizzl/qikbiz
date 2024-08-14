@@ -45,16 +45,21 @@
   ],
   "process": [
     {
-      "label": "Website Setup",
-      "content": "We handle all aspects of your eCommerce website, ensuring it’s designed for sales and ready to launch."
+      "label": "Discovery & Planning",
+      "content": "We begin with a consultation to understand your business needs and goals. This helps us tailor your website to perfectly represent your brand and attract your target audience."
     },
     {
-      "label": "Product Integration",
-      "content": "Our experts list 30 profitable products tailored to your chosen niche."
+      "label": " Website Design",
+      "content": "Our team of experts developers will build a website that reflects your brand identity, ensuring it’s fast, professional, and user-friendly."
     },
     {
-      "label": "Order Fulfillment Automation",
-      "content": "Forget about manual tasks; our system automates order processing so you can focus on marketing and growing your business."
+      "label": "Technical Integrations",
+      "content": "We handle all the technical aspects, from securing your domain to setting up reliable hosting, so your website is  live and accessible on all devices. We also setup your business email addresses and other integrations "
+    },
+
+    {
+      "label": " Ongoing Support & Updates",
+      "content": "After your website goes live, we continue to provide support and updates to keep your site running smoothly and effectively."
     }
   ]
 }

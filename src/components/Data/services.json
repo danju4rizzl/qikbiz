@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name1": "High-Quality, Branded Website Design",
-    "name2": "Store that attracts customers and sales—ready for launch by tomorrow morning!",
+    "name1": "5 Page Website Design",
+    "name2": "A professionally designed website that reflects your brand and attracts customers.",
     "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "./",
@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "name1": "Exclusive Shipping Partnerships",
-    "name2": "Enjoy fast, affordable shipping with trusted suppliers, ensuring your customers receive their orders promptly.",
+    "name1": "Domain & Hosting",
+    "name2": "Secure your online presence with a reliable domain and hosting service.",
     "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "./",
@@ -19,8 +19,8 @@
   },
   {
     "id": 3,
-    "name1": "30 High-Profit Products, Handpicked by Experts",
-    "name2": "Skip tedious product research with expertly curated products that are ready to sell on your site.",
+    "name1": "3 Business Emails",
+    "name2": "Build credibility with custom email addresses for your business domain.",
     "background": "h-[310px] p-12 bg-black rounded-[45px] shadow-card border border-black justify-between items-center flex text-white",
     "arrow": "./services/aw.svg",
     "link": "./",
@@ -28,8 +28,8 @@
   },
   {
     "id": 4,
-    "name1": "Automated Backend Order Management",
-    "name2": "In your store, you can easily stop doing manual shipping and quickly send products to customers automatically!",
+    "name1": "Basic SEO",
+    "name2": "Improve your website's visibility on search engines and drive more traffic.",
     "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "./",
@@ -37,20 +37,11 @@
   },
   {
     "id": 5,
-    "name1": "Compelling Product Descriptions That Sell",
-    "name2": "Transform your website listings into persuasive sales tools, convincing potential customers they can't live without your products.",
+    "name1": "SSL Certificate",
+    "name2": "Keep your website secure and build trust with your customers.",
     "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "./",
     "image": "./services/05.svg"
-  },
-  {
-    "id": 6,
-    "name1": "​Award Winning 24/7 Customer Support",
-    "name2": "Access our team of 7-figure eCommerce veterans, dedicated to your success.",
-    "background": "h-[310px] p-12 bg-black rounded-[45px] shadow-card border border-black justify-between items-center flex text-white",
-    "arrow": "./services/aw.svg",
-    "link": "./",
-    "image": "./services/06.svg"
   }
 ]
