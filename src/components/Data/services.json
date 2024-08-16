@@ -46,8 +46,8 @@
   },
   {
     "id": 6,
-    "name1": "Maintenance & Updates",
-    "name2": "It's plug-N-play with us. We'll keep your site up to date.",
+    "name1": "Monthly Maintenance",
+    "name2": "Keeping your business site updated. We dedicate 1hr for maintaining every month.",
     "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow-card border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "./",
