@@ -9,17 +9,19 @@ import Container from './Container.astro'
     <div class="flex items-center py-5 w-full md:pb-20 md:pt-10">
       <div class="text-left space-y-3">
         <h1 class="text-5xl font-medium leading-none md:text-6xl">
-          Get a Professional Website with Our LaunchPad Package for Just
-          R299/Month!
+          Ideal Small Business Website Solution for R{
+            pricingList.LaunchPad.price
+          } Month-to-Month
         </h1>
         <p class="mt-6 mb-8 text-xl font-normal leading-7 sm:mb-12">
-          Boost your small business with our LaunchPad package for only R299 per
-          month. Our experts will create a professional website tailored to your
-          needs, giving you a strong online presence affordably.
+          Signup for the LaunchPad package for just R{
+            pricingList.LaunchPad.price
+          } a month! You’ll get a 5-page website, web hosting, your own South African
+          .co.za business domain, a business email, and monthly maintenance.
         </p>
         <CtaButton
-          title={`Get Started for R${pricingList.LunchPad.price} PM`}
-          checkoutUrl={pricingList.LunchPad.packageLink}
+          title={`Get Started for R${pricingList.LaunchPad.price} PM`}
+          checkoutUrl={pricingList.LaunchPad.packageLink}
         />
       </div>
     </div>

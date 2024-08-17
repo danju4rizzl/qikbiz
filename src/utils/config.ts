@@ -1,6 +1,6 @@
 export const pricingList = {
-  LunchPad: {
-    packageName: 'LunchPad',
+  LaunchPad: {
+    packageName: 'LaunchPad',
     packageLink:
       'https://deejaydev.lemonsqueezy.com/buy/53b26d0e-316a-4a54-9b91-32e7ad42be71',
     priceInUsd: 16.99,

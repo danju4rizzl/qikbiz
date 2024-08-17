@@ -28,15 +28,16 @@ import { pricingList } from "../utils/config";
                         <p class="text-lg ">{name2}</p>
                     </div>
                 </div>
-                <a class="justify-start items-center gap-[15px] inline-flex" href={link}>
+                {/* TODO: Deejay use this: pricingList.LaunchPad.packageLink */}
+                <a class="lemonsqueezy-button justify-start items-center gap-[15px] inline-flex" href={'https://deejaydev.lemonsqueezy.com/buy/6a7d710b-2e12-4cb7-b708-2a6f5288abfa'}>
                     <div class="w-[41px] h-[41px] relative">
                         <img class="w-[41px] h-[41px] left-0 top-0 absolute" src={arrow} />
                     </div>
-                    <div class="text-xl font-normal leading-7">Learn more</div>
+                    <p class="text-xl font-normal leading-7">Get started</p>
                 </a>
             </div>
             <div class="w-[210px] h-[170px] pt-0.5 pb-[1.95px] justify-center items-center flex">
-                <img class="hidden md:block" src={image} />
+                <img class="hidden md:block" src={image} alt={name1} />
             </div>
         </div>
         ))
@@ -56,11 +57,11 @@ import { pricingList } from "../utils/config";
                     Say goodbye to the stress of finding great web developers, designers, and digital marketers! Our friendly team will set up your website just how you want it, so you can relax while we handle everything.
                  </div>
 
-                 <CtaButton title={`Get ${pricingList.LunchPad.packageName} R${pricingList.LunchPad.price} PM`} checkoutUrl={pricingList.LunchPad.packageLink}/>                
+                 <CtaButton title={`Get ${pricingList.LaunchPad.packageName} R${pricingList.LaunchPad.price} PM`} checkoutUrl={pricingList.LaunchPad.packageLink}/>                
             </div>
         </div>
         <div class="hidden md:grid justify-items-center -m-36">
-            <Image src={mockupImage} alt={`Best Web Development Solutions for South African Businesses form R${ pricingList.LunchPad.price } monthly `}/>
+            <Image src={mockupImage} alt={`Best Web Development Solutions for South African Businesses form R${ pricingList.LaunchPad.price } monthly `}/>
         </div>
     </div>
 </div>
